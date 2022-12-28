@@ -27,7 +27,7 @@ export default function Home() {
         <section className='px-4 font-sans text-black bg-slate-100 flex justify-center'>
           <DetailsPricing />
         </section>
-        <section id="home-intro-screen" className='px-4 sm:py-4 font-sans min-h-[50rem] text-black flex flex-col justify-center lg:justify-start lg:gap-8'>
+        <section id="home-intro-screen" className='px-4 py-4 lg:py-0 font-sans min-h-[50rem] text-black flex flex-col justify-center lg:justify-start lg:gap-8'>
           <h1 className='text-3xl font-bold mx-auto mb-5 lg:text-4xl lg:mt-8'>Customer Reviews</h1>
           <Reviews />
         </section>
