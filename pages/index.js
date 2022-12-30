@@ -24,11 +24,11 @@ export default function Home() {
         <section id="home-intro-screen" className='px-4 font-sans min-h-[55rem] text-black lg:px-[18rem]'>
           <Hook />
         </section>
-        <section className='px-4 font-sans text-black bg-slate-100 flex justify-center'>
+        <section className='px-4 font-sans text-black bg-slate-100 flex justify-center lg:py-8'>
           <DetailsPricing />
         </section>
         <section id="home-intro-screen" className='px-4 py-4 lg:py-0 font-sans min-h-[50rem] text-black flex flex-col justify-center lg:justify-start lg:gap-8'>
-          <h1 className='text-3xl font-bold mx-auto mb-5 lg:text-4xl lg:mt-8'>Customer Reviews</h1>
+          <h1 className='text-3xl font-bold mx-auto mb-5 lg:pt-5 lg:text-4xl lg:mt-8'>Customer Reviews</h1>
           <Reviews />
         </section>
         <section className='px-4 font-sans text-black bg-slate-100 flex justify-center'>
@@ -51,18 +51,18 @@ export function Navbar() {
     <div id="navbar" className='w-full h-10 bg-black p-7 text-white font-sans flex items-center justify-between lg:p-10 lg:px-[18rem]'>
       <div className='text-2xl font-bold lg:text-3xl'>Randy</div>
       <div className='hidden lg:flex lg:flex-row lg:text-lg lg:gap-4'>
-        <div className='ml-16 flex flex-row items-center gap-8'>Pricing
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 mt-1">
+        <div className='ml-16 flex flex-row items-center gap-4 text-white'>Pricing
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4 mt-1">
             <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
           </svg>
         </div>
-        <div  className='ml-12 flex flex-row items-center gap-8'>Support
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 mt-1">
+        <div  className='ml-12 flex flex-row items-center gap-4'>Support
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4 mt-1">
             <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
           </svg>
         </div>
-        <div  className='ml-12 flex flex-row items-center gap-8'> Company
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 mt-1">
+        <div  className='ml-12 flex flex-row items-center gap-4'> Company
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4 mt-1">
             <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
           </svg>
         </div>
@@ -267,7 +267,7 @@ export function Faq() {
         </div>
 
         <div className="absolute  mr-8 top-3 right-3 text-black transition-transform duration-300 rotate-0 peer-checked:rotate-180 lg:mr-0 lg:top-6">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 lg:w-8 lg:h-8">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4 lg:w-8 lg:h-8">
             <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
           </svg>
         </div>
@@ -290,7 +290,7 @@ export function Faq() {
         </div>
 
         <div className="absolute  mr-8 top-3 right-3 text-black transition-transform duration-300 rotate-0 peer-checked:rotate-180 lg:mr-0 lg:top-6">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 lg:w-8 lg:h-8">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4 lg:w-8 lg:h-8">
             <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
           </svg>
         </div>
@@ -313,7 +313,7 @@ export function Faq() {
         </div>
 
         <div className="absolute  mr-8 top-3 right-3 text-black transition-transform duration-300 rotate-0 peer-checked:rotate-180 lg:mr-0 lg:top-6">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 lg:w-8 lg:h-8">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4 lg:w-8 lg:h-8">
             <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
           </svg>
         </div>
@@ -336,7 +336,7 @@ export function Faq() {
         </div>
 
         <div className="absolute  mr-8 top-3 right-3 text-black transition-transform duration-300 rotate-0 peer-checked:rotate-180 lg:mr-0 lg:top-6">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 lg:w-8 lg:h-8">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4 lg:w-8 lg:h-8">
             <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
           </svg>
         </div>
