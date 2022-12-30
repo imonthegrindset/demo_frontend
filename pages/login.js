@@ -10,9 +10,14 @@ export default function LogIn() {
                 <div className='w-1/2 text-[.75rem] text-slate-400 font-bold'>Or sign in with your email</div>
                 <div className='w-1/4 border-[1px] border-slate-300'></div>
             </div>
-            <div className='flex flex-col'>
+            <div className='flex flex-col gap-3'>
                 <div className='flex flex-col gap-2'>
                     <label className='text-[.8rem]' htmlFor="">Email address</label>
+                    <input type="text" className='border-[1px] border-slate-300 rounded-md shadow-md p-1' />
+
+                </div>
+                <div className='flex flex-col gap-2'>
+                    <label className='text-[.8rem]' htmlFor="">Password</label>
                     <input type="text" className='border-[1px] border-slate-300 rounded-md shadow-md p-1' />
 
                 </div>
